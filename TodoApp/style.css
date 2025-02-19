@@ -1,0 +1,11 @@
+#inputTask{
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+}
+li{
+    list-style: none;
+    display: flex;
+}
