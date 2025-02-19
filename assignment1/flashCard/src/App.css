@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.flashcard-container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.flashcard {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  background: lightblue;
+  transition: transform 0.5s;
+}
+
+.flipped {
+  background: lightcoral;
+  transform: rotateY(180deg);
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+}
