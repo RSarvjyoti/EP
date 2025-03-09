@@ -1,4 +1,27 @@
-const createProduct = async (res, res) => {
+const Product = require("../models/product")
+
+const createProduct = async (req, res) => {
+    const {title, desc} = req.body
+    try{
+        const product = Product.create()
+    }catch(err) {
+        res.send({
+            message : err
+        })
+    }
+}
+
+const readProduct = async (req, res) => {
+    try{
+        
+    }catch(err) {
+        res.send({
+            message : err
+        })
+    }
+}
+
+const updateProduct = async (req, res) => {
     try{
 
     }catch(err) {
@@ -8,27 +31,7 @@ const createProduct = async (res, res) => {
     }
 }
 
-const readProduct = async (res, res) => {
-    try{
-
-    }catch(err) {
-        res.send({
-            message : err
-        })
-    }
-}
-
-const updateProduct = async (res, res) => {
-    try{
-
-    }catch(err) {
-        res.send({
-            message : err
-        })
-    }
-}
-
-const deleteProduct = async (res, res) => {
+const deleteProduct = async (req, res) => {
     try{
 
     }catch(err) {
